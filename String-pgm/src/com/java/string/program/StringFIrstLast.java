@@ -6,7 +6,6 @@ public class StringFIrstLast {
 
 		
 		String str = "apple";
-		char rev = 0;
 		
 		String str2 = new String("apple");
 		
@@ -14,10 +13,6 @@ public class StringFIrstLast {
 		System.out.println("Last char :" + str2.charAt(str2.length()-1));
 		System.out.println("len :" + str2.length());
 		
-		for (int i = str2.length()-1; i >=0; i--) {
-	
-			
-		}
 	}
 
 }
